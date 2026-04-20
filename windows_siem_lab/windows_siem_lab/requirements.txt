@@ -1,0 +1,6 @@
+# Windows SIEM — Python dependencies
+# Install:  pip install -r requirements.txt
+# Then:     python -m pywin32_postinstall -install   (once only)
+
+pywin32>=306       # Windows Event Log API (requires Windows OS)
+flask>=3.0         # Web dashboard
